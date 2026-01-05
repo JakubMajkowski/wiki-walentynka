@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #F8C8DC;
+    font-family: 'Roboto', sans-serif;
+}
+
+#noButton {
+    position: absolute;
+    margin-left: 140px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+#yesButton {
+    position: absolute;
+    margin-right: 150px;
+    font-weight: bold;
+}
+
+.header_text {
+    font-family: 'Nunito';
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #ff8e9f;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+}
+
+h1 {
+    font-family: 'Montserrat';
+}
